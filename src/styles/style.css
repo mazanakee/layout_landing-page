@@ -1,0 +1,74 @@
+/* #region header */
+body {
+  margin: 0;
+}
+
+html {
+ color: #292929;
+}
+
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px 40px;
+  height: 100vh;
+  background-image: url(/src/images/header/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(/src/images/header/icon_phone_number.png);
+}
+
+.icon--menu {
+  background-image: url(/src/images/header/icon_burger_menu.png);
+}
+
+.header__bottom {
+  margin: 0;
+}
+
+.header__title {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+/* #endregion */
+
+/* #region menu */
+
+/* #endregion */
+
+/* #region main */
+
+/* #endregion */
+
+/* #region footer */
+
+/* #endregion */
