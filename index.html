@@ -1,6 +1,6 @@
 <!-- #region head -->
 <!Doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -34,7 +34,7 @@
   </head>
   <!-- #endregion -->
 
-  <body>
+  <body class="page__body">
     <!-- #region HEADER -->
     <header class="header">
 
@@ -47,7 +47,7 @@
           <a href="#" class="icon icon--phone">
           </a>
 
-          <a href="#" class="icon icon--menu">
+          <a href="#menu" class="icon icon--menu">
           </a>
         </div>
       </div>
@@ -61,7 +61,35 @@
     </header>
     <!-- #endregion -->
 
-    <aside class="menu"></aside>
+    <aside class="menu page__menu" id="menu">
+      <div class="menu_content">
+        <div class="menu__top">
+          <a href="#">
+            <img src="src/images/header/nothing_logo.png" alt="Nothing logo">
+          </a>
+
+          <div class="header__icons">
+            <a href="#" class="icon icon--close">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__items">
+        <a href="#">Products</a>
+        <a href="#">Store</a>
+        <a href="#">Login</a>
+        <a href="#">Cart(0)</a>
+      </div>
+
+      <div class="menu__contacts">
+        <a href="#"
+          class="icon_content icon--phone--menu"></a>
+        <a href="#"
+          class="icon__content icon--call--menu"></a>
+      </div>
+
+    </aside>
 
     <!-- #region main -->
     <main class="main">
